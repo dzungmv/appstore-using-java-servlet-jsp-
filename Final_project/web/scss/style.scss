@@ -1,0 +1,85 @@
+// Your custom styles
+
+/* Required height of parents of the Half Page Carousel for proper displaying carousel itself */
+html,
+body,
+.view {
+  height: 100%; }
+
+/* Half Page Carousel itself*/
+.carousel {
+  height: 50%; }
+  .carousel .carousel-inner {
+    height: 100%; }
+    .carousel .carousel-inner .carousel-item,
+    .carousel .carousel-inner .active {
+      height: 100%; }
+
+/* Adjustment for mobile devices*/
+@media (max-width: 776px) {
+  .carousel {
+    height: 100%; } }
+
+/* Footer color for sake of consistency with Navbar */
+.page-footer {
+  background-color: #929FBA; }
+
+
+//Login
+.content {
+    margin: 15%;
+    padding: 2rem 1rem 2rem 1rem;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, .05);
+    border-radius: 10px;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    border-color: #00dbfd !important;
+    border-style: solid !important;
+    border-width: 0 0 1px 0 !important;
+    padding: 8px 25px !important;
+    color: #495057;
+    height: auto;
+    border-radius: 15px;
+    background-color: #fff;
+    background-clip: padding-box;
+}
+
+.img-login {
+    max-width: 100%;
+    margin-top: 55px;
+}
+
+.font-logo {
+    font-family: 'Dancing Script', cursive;
+}
+.forgot-text {
+    margin-right: auto;
+}
+.btn-login {
+    color: #fff;
+    box-shadow: none;
+    padding: 8px 25px;
+    width: 100%;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #6ee2f5, #6454f0);
+}
+.img-login {
+    width: 100%;
+}
+
+.btn-login:hover {
+    color: #fff;
+    box-shadow: none;
+    padding: 8px 25px;
+    width: 100%;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #aee8f1, #a69eee);
+}
